@@ -1,0 +1,17 @@
+#roleDetails {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.roleTd {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 2px 5px;
+}
+
+.caption {
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}

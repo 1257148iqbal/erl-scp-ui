@@ -1,0 +1,10 @@
+export const SET_DEPENDENCIES = 'set_dependencies';
+export const CHANGE_DEPARTMENT = 'change_department';
+export const FILL_DESIGNATIONS = 'FILL_DESIGNATIONS';
+export const CHANGE_DESIGNATION = 'CHANGE_DESIGNATION';
+export const CHANGE_INPUT_FIELDS = 'change_input_fields';
+export const CHANGE_ROLES = 'change_roles';
+export const CHANGE_PASSWORD_VISIBILITY = 'change_password_visibility';
+export const CHANGE_IMAGE = 'change_image';
+export const SET_EDITED = 'set_edited';
+export const CHANGE_OPERATOR = 'CHANGE_OPERATOR';

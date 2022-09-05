@@ -1,0 +1,42 @@
+.decokingLogTable td {
+  border: 1px solid;
+  padding: 0px 3px;
+}
+
+.decokingLogTable {
+  width: 100%;
+  border-collapse: collapse;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid;
+  padding: 0px 3px;
+}
+
+.tableRow {
+  background-color: gainsboro;
+  text-align: center;
+  font-weight: 800;
+}
+
+.parameter {
+  font-size: 12px;
+  width: 28%;
+  max-width: 260px;
+}
+
+.readingUnit {
+  text-align: center;
+  width: 12%;
+}
+
+.local {
+  text-align: center;
+  font-weight: 900;
+  padding: 5px;
+  font-size: 16;
+}
+
+h3 {
+  text-align: center;
+  padding: 5px 0px;
+}

@@ -1,0 +1,8 @@
+#tank div::after {
+  content: '+';
+  width: 20px;
+  margin: 0px 5px;
+}
+#tank div:last-child:after {
+  content: '';
+}

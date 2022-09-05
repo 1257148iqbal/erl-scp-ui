@@ -1,0 +1,145 @@
+.section {
+  background-color: #fff;
+  color: #000;
+  margin-bottom: 15px !important;
+}
+
+.textBoxCenter {
+  text-align: center;
+}
+
+.ddstables,
+.ddstables tr,
+.ddstables td {
+  border: 1px solid;
+}
+
+.ddstables {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ddstables thead {
+  background-color: rgba(30, 78, 123, 0.2);
+}
+
+.ddstables thead tr td {
+  text-align: center;
+}
+
+.ddstables tbody tr td {
+  padding: 3px;
+}
+
+.ddstables tbody tr td input {
+  width: 90%;
+  outline: none;
+  padding: 5px 2px;
+  text-align: center;
+}
+
+/* tui */
+
+/* fi */
+.fi tbody tr td:nth-child(1) {
+  width: 30%;
+}
+.fi tbody tr td:nth-child(3) {
+  width: 20%;
+}
+.fi tbody tr td:nth-child(3) {
+  width: 50%;
+}
+
+/* fi */
+.fic tbody tr td:nth-child(1) {
+  width: 33%;
+}
+.fic tbody tr td:nth-child(3) {
+  width: 33%;
+}
+.fic tbody tr td:nth-child(3) {
+  width: 34%;
+}
+
+/* ammonia */
+.ammonia tbody tr td:nth-child(1) {
+  width: 33%;
+}
+.ammonia tbody tr td:nth-child(3) {
+  width: 33%;
+}
+.ammonia tbody tr td:nth-child(3) {
+  width: 34%;
+}
+
+/* ps */
+.production-synopsis tbody tr td:nth-child(1) {
+  width: 40%;
+}
+.production-synopsis tbody tr td:nth-child(2) {
+  width: 40%;
+}
+.production-synopsis tbody tr td:nth-child(3) {
+  width: 20%;
+}
+
+/* consumptions */
+.consumptions tbody tr td:nth-child(1) {
+  width: 50%;
+}
+.consumptions tbody tr td:nth-child(2) {
+  width: 50%;
+}
+
+/* other features */
+.other-features tbody tr td:nth-child(1) {
+  width: 40%;
+}
+.other-features tbody tr td:nth-child(2) {
+  width: 60%;
+}
+.other-features tbody tr:nth-child(10) input {
+  width: 50%;
+  margin-right: 20px;
+}
+.other-features tbody tr:nth-child(11) .MuiInputBase-fullWidth {
+  width: 50%;
+}
+.other-features tbody tr:nth-child(12) input {
+  width: 50%;
+}
+
+.feed-tank-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.symbol {
+  min-width: 120px;
+}
+
+.tank-icon-container {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 3px 7px;
+  border: 1px solid #000;
+}
+
+.tank-remove-icon {
+  top: -5px;
+  color: white;
+  right: 0;
+  width: 15px;
+  cursor: pointer;
+  height: 15px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+  background-color: red;
+}

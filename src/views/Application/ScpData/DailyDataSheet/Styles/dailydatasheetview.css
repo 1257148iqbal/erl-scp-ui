@@ -1,0 +1,40 @@
+.master-section,
+.master-section tr,
+.master-section td {
+  border: 1px solid;
+}
+
+.master-section {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px !important;
+}
+
+.master-section tbody tr td {
+  padding: 5px 7px;
+}
+.master-section tbody tr td span:first-child {
+  margin-right: 5px;
+}
+
+.details-section {
+}
+.details-section .ddstables thead tr td:nth-child(1) {
+  min-width: 200px;
+}
+
+.tank-with-symbol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.tank-with-symbol div::after {
+  content: '|';
+  width: 20px;
+  margin: 0px 5px;
+}
+.tank-with-symbol div:last-child:after {
+  content: '';
+}
